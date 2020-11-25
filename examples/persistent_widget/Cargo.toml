@@ -1,0 +1,10 @@
+[package]
+name = "persistent_widget"
+version = "0.1.0"
+authors = ["Da <valbendan@hotmail.com>"]
+edition = "2018"
+publish = false
+
+[dependencies]
+iced = { path = "../..", features = ["tokio"] }
+tokio = { version = "0.3", features = ["full"] }
